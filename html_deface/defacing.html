@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Defaced by pexza</title>
+    <style>
+        body {
+            color: white; /* Set text color to white for visibility */
+            text-align: center; /* Center all text inside the body */
+            margin: 0; /* Remove default margins */
+        }
+
+        h1 {
+            color:blueviolet;
+            font-size: xx-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+        }
+
+        h2 {
+            color: blueviolet;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xx-large;
+            font-style: italic;
+        }
+
+        p {
+            color: gold; /* Sets the text color to gold */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            font-style: italic;
+            text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 15px rgba(255, 215, 0, 0.5); /* Soft gold glow */
+        }
+
+        .audio-controls {
+            margin-top: 20px; /* Add some space above the controls */
+        }
+
+        button {
+            background-color: transparent; /* Transparent background */
+            color: white;
+            border: 1px solid white;
+            padding: 5px 15px; /* Smaller padding */
+            margin: 5px;
+            font-size: 14px; /* Smaller font size */
+            cursor: pointer;
+            border-radius: 20px; /* Rounded edges for a sleek look */
+            font-family: Arial, sans-serif; /* Simple font */
+        }
+
+        button:hover {
+            background-color: white;
+            color: black; /* Invert colors on hover */
+        }
+    </style>
+
+    <style>
+        body {
+            background-image: url('https://w0.peakpx.com/wallpaper/803/750/HD-wallpaper-anime-city-top-view.jpg');
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center; /* Centers the image */
+            margin: 0; /* Removes default body margins */
+            height: 100vh; /* Sets the height of the body to the viewport height */
+        }
+    </style>
+</head>
+<body>
+    <h1>YOU GOT DEFACED BY <span class="glow">PEXZA</span></h1> <!-- Glow effect applied to "Pexza" -->
+    <h2>Your site sucked anyway</h2>
+    <p>Pexza was here</p>
+
+    <!-- Audio Element -->
+    <audio id="audio-player" src="audio.mp3"></audio>
+
+    <!-- Play and Pause Buttons -->
+    <div class="audio-controls">
+        <button onclick="playAudio()">Play</button>
+        <button onclick="pauseAudio()">Pause</button>
+    </div>
+
+    <!-- JavaScript for Audio Controls -->
+    <script>
+        const audio = document.getElementById('audio-player');
+
+        function playAudio() {
+            audio.play();
+        }
+
+        function pauseAudio() {
+            audio.pause();
+        }
+    </script>
+</body>
+</html>
